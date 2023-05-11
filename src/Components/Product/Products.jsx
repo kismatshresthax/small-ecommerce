@@ -39,7 +39,7 @@ getProducts();
 const Loading =() =>{
     return(
         <>
-        ........
+        Loading........
      
           </>
     )

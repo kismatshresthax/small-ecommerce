@@ -39,7 +39,7 @@ const Product = () => {
         return (
             <>
         <div className="col-md-6" style={{testalign:"center"}} >
-        <CircularProgress disableShrink  />
+        Loading....
         </div>
             </>
         )
