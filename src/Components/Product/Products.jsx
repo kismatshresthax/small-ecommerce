@@ -19,12 +19,12 @@ const handleChange = (event) => {
 
 
 
-const getProducts = async() =>{
+const getProducts = () =>{
     setLoading(true);
-    const response = await fetch('http://fakestoreapi.com/products')
+    const response =  fetch('http://fakestoreapi.com/products')
     if(componentMounted){
-        setData(await response.clone().json());
-        setFilter(await response.json());
+        setData(response.clone().json());
+        setFilter(response.json());
         setLoading(false);
         console.log(filter)
     }
